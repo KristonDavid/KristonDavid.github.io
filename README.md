@@ -41,9 +41,9 @@ Dupla enter választja el őket. Ez egy következő gondolat, bekezdés.
  FejlécA | FejlécB 
 ---------|---------
  Cella 1 | Cella 2 
- 2. sor  | 2. sor  
- 3. sor  | 3. sor  
- 4. sor  | 4. sor  
+ sor 2.  | 2. sor  
+ sor 3.  | 3. sor  
+ sor 4.  | 4. sor  
 
 
 
