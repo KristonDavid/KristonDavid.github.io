@@ -45,15 +45,30 @@ Dupla enter választja el őket. Ez egy következő gondolat, bekezdés.
  sor 3.  | 3. sor  
  sor 4.  | 4. sor  
 
+### Kódrészlet
+
+```html
+<h1>Példa</h1>
+```
+
+```python
+valtozo = int(intput("Szám? "))
+```
+
+```css
+p { color: black; }
+```
+
+## Inline (szövegformázás)
+
+*dőlt*
+
+**félkövér**
+
+~~AltGr+1~~
+
+[link szövege](http://umszki.hu)
 
 
-
-
-
-
-
-
-
-
-
+![kép szövege](cheat_sheet.png)
 
