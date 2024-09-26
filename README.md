@@ -57,5 +57,41 @@ p { color: red; }
 print("szöveg")
 ```
 
+### Táblázat
 
+Pipe karakter AltGr + W
 
+ Fejléc | Fejléc 
+ ------ | ------ 
+ Adatok | Adatok 
+ KövSor | KövSor 
+  ....  |  ...   
+  stb.  | stb.   
+
+## Szövegformázások (inline)
+
+*dőlt*
+
+**félkövér**
+
+_dőlt_
+
+__félkövér__
+
+~~AltGr+1~~
+
+## Linkek
+
+http://umszki.hu/
+
+Szögletes zárójel AltGr + F
+
+[link szövege](http://umszki.hu/)
+
+[cheat sheet itt](https://external-preview.redd.it/uRpAK3DjSQ2U_XCq3_WsE1RIs8FLpoekJBw3U5t2hTU.jpg?auto=webp&s=b801ecbc86b4ae4d4e5ca27439865f960a55a214)
+
+### Kép beszúrása
+
+![helyi kép](cheat_sheet.png)
+
+![távoli kép](https://external-preview.redd.it/uRpAK3DjSQ2U_XCq3_WsE1RIs8FLpoekJBw3U5t2hTU.jpg?auto=webp&s=b801ecbc86b4ae4d4e5ca27439865f960a55a214)
