@@ -1,74 +1,61 @@
-# Címsor1
-## Címsor2
-### Címsor3
-#### Címsor4
-##### Címsor5
-###### Címsor6
+# Címsor 1
+## Címsor 2
+### Címsor 3
+#### Címsor 4
+##### Címsor 5
+###### Címsor 6
 
 # Markdown
 
 ## Blokkok
 
-### Paragrafus
-
-Bekezdés. Egy  összetartozó gondolat. 
-Egyetlen enterrel összefüggő szöveg marad.
-
-Dupla enter választja el őket. Ez egy következő gondolat, bekezdés.
-
 ### Felsorolás
 
-- foo
-- bar
-- baz
+- egg
+- ham
+- spam
 
-### Számozott lista
+### Számozás
 
-1. egg
-1. ham
-1. spam
+1. foo
+1. bar
+1. baz
 
-### Idézet (szövegdoboz)
+### Bekezdés
 
-> AltGr + Y
+Egy paragus, vagyis egyetlen összetartozó gondolat, amit folyó szövegként írunk le, a végén enterrel zárjuk.
 
-### Vízszintes választóvonal
+Itt nem kell < p > címkével nyitni és a végén </ p > taggel zárni, hanem elég két darab sortöréssel jelölni.
+Ez például csak egy sortörés volt, nem lesz belőle új bekezdés.
+
+### Blokkols idézet (szövegdoboz)
+
+    Ez egy kimelt rész
+
+    Gyakran hosszab idézethez
+
+Egész eddig.
+
+### Vízszintes választóvonla
 
 ---
 
-### Táblázat
 
- FejlécA | FejlécB 
----------|---------
- Cella 1 | Cella 2 
- sor 2.  | 2. sor  
- sor 3.  | 3. sor  
- sor 4.  | 4. sor  
+```
+Backtick kakakter AltGr + 7
+```
 
-### Kódrészlet
+``` html
+<h1>Kódrészlet</h1>
+```
 
-```html
-<h1>Példa</h1>
+``` css
+p { color: red; }
 ```
 
 ```python
-valtozo = int(intput("Szám? "))
+print("szöveg")
 ```
 
-```css
-p { color: black; }
-```
 
-## Inline (szövegformázás)
-
-*dőlt*
-
-**félkövér**
-
-~~AltGr+1~~
-
-[link szövege](http://umszki.hu)
-
-
-![kép szövege](cheat_sheet.png)
 
