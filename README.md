@@ -24,8 +24,8 @@ Ez pedig a következő bekezdés.
 
 # Tennivalók
 
-- [] Todo1
-- [] Todo2
+- [ ] Todo1
+- [ ] Todo2
 - [X] Done
 
 ---
