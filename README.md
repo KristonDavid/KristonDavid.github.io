@@ -9,14 +9,24 @@ Ez egy itt egy paragrafus.
 
 Ez pedig a következő bekezdés.
 
+# Felsorolás
+
 - foo
 - bar
 
 * egg
 * ham
 
+# Számozás
+
 1. first
 1. second
+
+# Tennivalók
+
+- [] Todo1
+- [] Todo2
+- [X] Done
 
 ---
 
@@ -33,6 +43,8 @@ lorem ispum dolor **erős kiemelés** gloria mundi *finom hangsúlyozás* lorem 
 # Képek
 
 ![kép helyettesítő szövege](https://umszki.hu/images/logo/umlogo_70x70_new.png)
+
+![helyi képre hivatkozás](cheetsheet.jpg)
 
 # Táblázat
 
