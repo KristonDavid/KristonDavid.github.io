@@ -5,6 +5,8 @@
 #### Címsor 5
 ##### Címsor 6
 
+# Bekezdés sortörésekkel
+
 Ez egy itt egy paragrafus.
 
 Ez pedig a következő bekezdés.
@@ -28,7 +30,11 @@ Ez pedig a következő bekezdés.
 - [ ] Todo2
 - [X] Done
 
+# Választóvonal
+
 ---
+
+# Idézet vagy kiemelés
 
 > idézet
 
