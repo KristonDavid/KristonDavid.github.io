@@ -42,7 +42,29 @@ lorem ispum dolor **erős kiemelés** gloria mundi *finom hangsúlyozás* lorem 
 | Érték 1           | Érték 2     |
 | Érték 1           | Érték 2     |
 
+# Kódrészlet
 
+Backtick karakter AltGr + 7
+
+```
+<h1>Címsor</h1>
+```
+
+```html
+<p>Ez egy html kód</p>
+```
+
+```css
+body { color: red; }
+```
+
+```js
+console.log()
+```
+
+```python
+print()
+```
 
 
 
