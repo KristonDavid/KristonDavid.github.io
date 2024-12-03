@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
     <h2>Aktuális sor vagy kijelölt blokk mozgatása</h2>
 
     ALT + fel / le
@@ -52,6 +43,3 @@
     <h2>Help</h2>
 
     F1
-
-</body>
-</html>
