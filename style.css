@@ -1,0 +1,31 @@
+nav {
+    background-color: black;
+}
+
+/* ős és leszármazott */
+nav a {
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* háttérképek */
+header {
+
+    background-image: url("forras/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+    text-align: center;
+
+    padding: 50px;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 70%);
+    color: white;
+    padding: 30px;
+}
