@@ -1,29 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmet</title>
-    <link rel="stylesheet" href="style.css">
+# Szelektorok (elemválasztók)
+## elem szelektor
 
-    <style>
-        /* elem szelektor */
-        h2 {}
+h2 {}
 
-        /* szülő gyermeke */
-        ul>li {}
+## szülő gyermeke
 
-        /* osztályszelektor */
-        .container {}
+ul>li {}
 
-        /* azonosító */
-        #main {}
+## ős leszármazottja
 
-    </style>
-</head>
-<body>
-    
-    <h1>Emmet</h1>
+div p {}
+
+## osztályszelektor
+
+.container {}
+
+## azonosító
+
+#main {}
+
+# Emmet
 
     <h2>Elem készítése</h2>
 
