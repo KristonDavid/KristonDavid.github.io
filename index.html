@@ -15,34 +15,22 @@
 
 <body>
 
-	<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+	<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Szolgáltatások</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Technológiák</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Munkadíjak</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Kapcsolat</a>
-					</li>
-				</ul>
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			  <a class="nav-link active" aria-current="page" href="#szolgatatasok">Szolgáltatások</a>
+			  <a class="nav-link" href="#cegunk">Cégünkről</a>
+			  <a class="nav-link" href="#tech">Technológiák</a>
+			  <a class="nav-link" href="#munkadij">Munkadíjak</a>
 			</div>
+		  </div>
 		</div>
-	</nav>
+	  </nav>
 
 	<header>
 		<div>
@@ -53,7 +41,7 @@
 
 	<main class="container my-5">
 
-		<div class="row">
+		<div class="row" id="szolgatatasok">
 			<div class="col-md-6 col-lg-3">
 				<img src="forras/images/bithumen.jpg" class="rounded-circle img-fluid" alt="">
 				<h3>Csatornák</h3>
@@ -100,7 +88,7 @@
 			</div>
 		</div>
 
-		<article class="row">
+		<article class="row" id="cegunk">
 			<div class="col-lg-8 order-first">
 				<h3>Cégünkről 30 év tapasztalat</h3>
 				<p>Csősz János tetőfedő-bádogos mester vállalkozó vagyok. 1969 óta dolgozom tetőn.</p>
@@ -118,7 +106,7 @@
 			</div>
 		</article>
 
-		<article class="row">
+		<article class="row" id="tech">
 			<div class="col-lg-8 order-lg-last">
 				<h3>Technológiák Személyre szabva</h3>
 				<p>A tető hajlásszögéhez, formájához, tördeltségéhez, az uralkodó szélirányhoz, a kiválasztott
@@ -139,7 +127,7 @@
 			</div>
 		</article>
 
-		<h3>Munkadíjak</h3>
+		<h3 id="munkadij">Munkadíjak</h3>
 
 		<table class="table table-striped table-hover">
 			<thead>
