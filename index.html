@@ -8,6 +8,11 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+	<style>
+		.navbar-brand {
+			font-weight: bold;
+		}
+	</style>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
@@ -15,24 +20,25 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+	<nav class="navbar bg-dark" data-bs-theme="dark">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-			  <a class="nav-link active" aria-current="page" href="#szolgatatasok">Szolgáltatások</a>
-			  <a class="nav-link" href="#cegunk">Cégünkről</a>
-			  <a class="nav-link" href="#tech">Technológiák</a>
-			  <a class="nav-link" href="#munkadij">Munkadíjak</a>
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="#szolgatatasok">Szolgáltatások</a>
+					<a class="nav-link" href="#cegunk">Cégünkről</a>
+					<a class="nav-link" href="#tech">Technológiák</a>
+					<a class="nav-link" href="#munkadij">Munkadíjak</a>
+				</div>
 			</div>
-		  </div>
 		</div>
-	  </nav>
+	</nav>
 
-	<header>
+	<header class="kutyamnyo-teszta">
 		<div>
 			<h1>Tetőfedés-Bádogozás</h1>
 			<h2>30 év tapasztalattal</h2>
@@ -43,7 +49,7 @@
 
 		<div class="row" id="szolgatatasok">
 			<div class="col-md-6 col-lg-3">
-				<img src="forras/images/bithumen.jpg" class="rounded-circle img-fluid" alt="">
+				<img src="forras/images/csatornak.jpg" class="rounded-circle img-fluid" alt="Fém ereszcsatorna és lefolyócső egy épület sarkán">
 				<h3>Csatornák</h3>
 				<ul>
 					<li>Függőeresz, fekvőeresz, attika,</li>
@@ -54,7 +60,7 @@
 				</ul>
 			</div>
 			<div class="col-md-6 col-lg-3">
-				<img src="forras/images/csatornak.jpg" class="rounded-circle img-fluid" alt="">
+				<img src="forras/images/kiegeszitok.jpg" class="rounded-circle img-fluid" alt="Piros cseréptető tetőablakkal és kéménnyel">
 				<h3>Szegélyek</h3>
 				<ul>
 					<li>Ereszés kéményszegélyek,</li>
@@ -65,7 +71,7 @@
 				</ul>
 			</div>
 			<div class="col-md-6 col-lg-3">
-				<img src="forras/images/cserepfedes.jpg" class="rounded-circle img-fluid" alt="">
+				<img src="forras/images/cserepfedes.jpg" class="rounded-circle img-fluid" alt="Különböző színű tetőcserepek mintái">
 				<h3>Tetőfedések</h3>
 				<ul>
 					<li>Cserépfedések,</li>
@@ -76,7 +82,7 @@
 				</ul>
 			</div>
 			<div class="col-md-6 col-lg-3">
-				<img src="forras/images/kiegeszitok.jpg" class="rounded-circle img-fluid" alt="">
+				<img src="forras/images/bithumen.jpg" class="rounded-circle img-fluid" alt="Szürke bitumenes zsindelyfedés részlete">
 				<h3>Lágyfedések</h3>
 				<ul>
 					<li>Bitumenes zsindely,</li>
@@ -96,13 +102,15 @@
 					épületek csapadékvíz elvezetése a feladatunk, ennek minőségi kivitelezése változatlan és folyamatos
 					a kezdetektől. Elsősorban Budapesten és környékén állunk rendelkezésére egyéni megrendelőknek,
 					társasházaknak, közületeknek.</p>
-				<p>Munkatársaimmal vállaljuk új tetők <em>bármilyen rendszerű</em> fedését, régi tetők felújítását, javítását,
+				<p>Munkatársaimmal vállaljuk új tetők <em>bármilyen rendszerű</em> fedését, régi tetők felújítását,
+					javítását,
 					viharkárok elhárítását.</p>
 				<p>Remélem hamarosan Ön is megrendelőnk lesz.</p>
-				<p><q>Minőségi munka, elégedett megrendelő, hosszú távú kapcsolat.</q> <cite>Csősz János bádogosmester</cite></p>
+				<p><q>Minőségi munka, elégedett megrendelő, hosszú távú kapcsolat.</q> <cite>Csősz János
+						bádogosmester</cite></p>
 			</div>
 			<div class="col-lg-4 order-last">
-				<img src="forras/images/dsc00044.jpg" alt="" class="img-thumbnail img-fluid">
+				<img src="forras/images/dsc00044.jpg" alt="Tetőfedő munkás biztonsági kötéllel dolgozik a cseréptetőn" class="img-thumbnail img-fluid">
 			</div>
 		</article>
 
@@ -111,19 +119,23 @@
 				<h3>Technológiák Személyre szabva</h3>
 				<p>A tető hajlásszögéhez, formájához, tördeltségéhez, az uralkodó szélirányhoz, a kiválasztott
 					anyagokhoz, valamint a megrendelő igényeihez alkalmazkodva a mindenkori szakmai előírások szerint
-					végezzük munkánkat. Az <abbr title="Épületszigetelők, Tetőfedők, Bádogosok és Ácsok Magyarországi Szövetsége">ÉMSZ</abbr> és az érvényes szabványok, és a gyártók előírásai szerint járunk el a
+					végezzük munkánkat. Az <abbr
+						title="Épületszigetelők, Tetőfedők, Bádogosok és Ácsok Magyarországi Szövetsége">ÉMSZ</abbr> és
+					az érvényes szabványok, és a gyártók előírásai szerint járunk el a
 					kivitelezés során.</p>
 				<p>Az anyagokat első osztályban, ellenőrzött gyártótól, kereskedőtől megfelelőségi dokumentációval
 					szerezzük be. A különböző márkák speciális beépítési technológiáit az általuk indított
 					tanfolyamokon, továbbképzésein sajátítjuk el munkatársaimmal.</p>
 				<p>A lelkiismerettel, szakszerűen végzett munka vezet a jó minőséghez. Az általunk elvégzett munkákra,
-					beszerzett és felszerelt anyagokra az építési törvényben előírt <strong>garanciát</strong> vállalunk.</p>
+					beszerzett és felszerelt anyagokra az építési törvényben előírt <strong>garanciát</strong>
+					vállalunk.</p>
 				<blockquote>
-					Fakéregből is lehet jó tető, aranylemezzel is végezhető silány munka. <cite>Csősz János bádogosmester</cite>
+					Fakéregből is lehet jó tető, aranylemezzel is végezhető silány munka. <cite>Csősz János
+						bádogosmester</cite>
 				</blockquote>
 			</div>
 			<div class="col-lg-4 order-lg-first">
-				<img src="forras/images/dsc00003.jpg" alt="" class="img-thumbnail img-fluid">
+				<img src="forras/images/dsc00003.jpg" alt="Új tetőszerkezet építése fa szarufákkal" class="img-thumbnail img-fluid">
 			</div>
 		</article>
 
@@ -171,6 +183,25 @@
 			</tbody>
 		</table>
 
+		<section class="format-examples" id="css-peldak" aria-labelledby="css-peldak-cim">
+			<h2 id="css-peldak-cim">CSS-formázási példák</h2>
+			<p style="font-size: 1rem;">A következő minták bemutatják a külső stíluslapban használt betű-, szöveg-, szín- és dobozformázásokat.</p>
+			<p class="font-sample">Betűtípus, méret, félkövér, dőlt és kiskapitális megjelenés.</p>
+			<div class="text-samples">
+				<p class="text-left">Balra igazított szöveg.</p>
+				<p class="text-right">Jobbra igazított szöveg.</p>
+				<p class="text-center">Középre igazított szöveg.</p>
+				<p class="text-justify">Sorkizártra igazított szöveg, amely hosszabb sorokon szemlélteti a beállítást.</p>
+				<p><span class="text-lowercase">KISBETŰS MEGJELENÍTÉS</span>; <span class="text-uppercase">kisbetűs megjelenítés</span>.</p>
+				<p><span class="text-underline">Aláhúzott</span>, <span class="text-overline">föléhúzott</span> és <span class="text-line-through">áthúzott</span> szöveg.</p>
+			</div>
+			<p class="color-named">Beépített színnévvel megadott szövegszín.</p>
+			<p class="color-hex">Hexadecimális értékkel megadott háttérszín.</p>
+			<p class="color-rgb">RGB-értékkel megadott keretszín.</p>
+			<p class="box-longhand">Dobozmodell hosszú alakban: méret, keret, külső margó és belső eltartás.</p>
+			<p class="box-shorthand">Dobozmodell rövidített alakban: méret, keret, külső margó és belső eltartás.</p>
+			<p class="demo-copy">A külső hivatkozás az <a href="https://tetofedomester.hu/" target="_blank" rel="noopener noreferrer">eredeti vállalkozói weboldalra</a> mutat. <strong>A félkövér szöveg leszármazott-szelektor példája.</strong></p>
+		</section>
 
 	</main>
 

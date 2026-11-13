@@ -2,6 +2,10 @@ nav {
     background-color: black;
 }
 
+.kutyamnyo-teszta {
+    color: red;
+}
+
 /* ős és leszármazott */
 nav a {
     color: white;
@@ -28,4 +32,114 @@ header div {
     background-color: rgba(0, 0, 0, 70%);
     color: white;
     padding: 30px;
+}
+
+#css-peldak {
+    margin-top: 3rem;
+}
+
+.format-examples h2,
+.format-examples .font-sample {
+    color: darkslategray;
+}
+
+.format-examples .font-sample {
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-overline {
+    text-decoration: overline;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.color-named {
+    color: darkgreen;
+}
+
+.color-hex {
+    background-color: #f0f3f5;
+}
+
+.color-rgb {
+    border: 2px solid rgb(70, 90, 110);
+    padding: 0.5rem;
+}
+
+.box-longhand {
+    width: 100%;
+    max-width: 720px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(70, 90, 110);
+    margin-top: 0.75rem;
+    margin-right: auto;
+    margin-bottom: 0.75rem;
+    margin-left: auto;
+    padding-top: 0.75rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+}
+
+.box-shorthand {
+    width: 100%;
+    max-width: 720px;
+    border: 2px solid #687986;
+    margin: 0.75rem auto;
+    padding: 0.75rem 1rem;
+}
+
+.format-examples a:visited {
+    color: darkgreen;
+}
+
+.format-examples a:hover {
+    color: #b5472b;
+}
+
+.format-examples a:active {
+    color: rgb(30, 70, 120);
+}
+
+.format-examples .demo-copy strong {
+    font-weight: bold;
+}
+
+.format-examples .text-samples p {
+    margin-bottom: 0.5rem;
 }
